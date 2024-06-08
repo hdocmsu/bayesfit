@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "README",
+    "section": "",
+    "text": "Create a new project using this template\nrun make init_repository to initialize the repo for nbdev\nrun nbdev_preview to makesure nbdev renders the website\nmodify setting.ini and _quarto.yml as needed to reflect names and hyperlinks of this project\nadd notebook in the nbs folder and start building software\n\nHappy Coding!",
+    "crumbs": [
+      "README"
+    ]
+  },
+  {
+    "objectID": "index.html#get-started",
+    "href": "index.html#get-started",
+    "title": "README",
+    "section": "",
+    "text": "Create a new project using this template\nrun make init_repository to initialize the repo for nbdev\nrun nbdev_preview to makesure nbdev renders the website\nmodify setting.ini and _quarto.yml as needed to reflect names and hyperlinks of this project\nadd notebook in the nbs folder and start building software\n\nHappy Coding!",
+    "crumbs": [
+      "README"
+    ]
+  }
+]
