@@ -1,0 +1,44 @@
+project:
+    type: website
+
+format:
+    html:
+        theme:
+            dark: darkly
+            light: flatly
+        css: styles.css
+        toc: true
+        toc-depth: 4
+        number-sections: false
+        link-external-icon: true
+
+
+website:
+  twitter-card: true
+  open-graph: true
+  repo-actions: [issue]
+  favicon: favicon.png
+  navbar:
+    background: primary
+    search: true
+    collapse-below: lg
+
+    left:
+            - text: "Author"
+              menu:
+                  - text: "Hung Do, PhD"
+                    icon: person-circle
+                    href: https://hdocmsu.github.io
+                  - text: "Resume"
+                    icon: person-lines-fill
+                    href: https://hdocmsu.github.io/resume
+
+    right:
+            - icon: github
+              href: "https://github.com/hdocmsu/hpd_nbdev_template"
+            - icon: linkedin
+              href: https://www.linkedin.com/in/hpd2021/
+  sidebar:
+    style: floating
+
+metadata-files: [nbdev.yml, sidebar.yml]

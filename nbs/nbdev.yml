@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "hpd_nbdev_template"
+  site-url: "https://hdocmsu.github.io/hpd_nbdev_template"
+  description: "A template for nbdev-based project"
+  repo-branch: main
+  repo-url: "https://github.com/hdocmsu/hpd_nbdev_template/"

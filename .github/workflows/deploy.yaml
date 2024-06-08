@@ -1,0 +1,18 @@
+name: Deploy to GitHub Pages
+
+permissions:
+    contents: write
+    pages: write
+
+on:
+    push:
+        branches: ["main", "master"]
+    workflow_dispatch:
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            [
+                run: sudo apt-get update; sudo apt-get install ffmpeg,
+                uses: fastai/workflows/quarto-ghp@master,
+            ]
